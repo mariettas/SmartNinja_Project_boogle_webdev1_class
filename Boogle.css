@@ -3,9 +3,7 @@ font-family: sans-serif;
 }
 
 .container {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
 }
 
 
@@ -29,7 +27,7 @@ font-family: sans-serif;
 }
 
 .login-form{
-    position: relative
+    position: relative;
     font-size: 18px;
     height: auto;
     width: auto;
@@ -57,11 +55,12 @@ font-family: sans-serif;
     width: auto;
     text-align: center;
     padding: 10px;
-    margin: 20px;
+    margin: auto;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    display: block;
+    display: flex;
+
 }
 
 .button-signin:hover {
